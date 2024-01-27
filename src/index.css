@@ -1,13 +1,20 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/premium-photo/image-colorful-galaxy-sky-generative-ai_791316-9864.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+div {
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+ul {
+  width: 300px;
+}
+li {
+  display: flex;
+  justify-content: space-around;
 }
